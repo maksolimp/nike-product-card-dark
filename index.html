@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nike Product card (dark)</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="">
+	<link rel="icon" href="favicon.png">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="ba-container">
+	<section class="ba-product">
+			<header class="ba-product__header">
+				<a href="#" class="ba-product__logo"><img src="img/logo.png" alt="Nike"></a>
+			</header>
+			<main>
+
+				<form class="ba-product__form cf" action="#">
+					<div class="ba-product__col-1 ba-float-left">
+						<img src="img/shoe.png" alt="Nike">
+						<div class="ba-product__color">
+							<input class="ba-product__color--color-1" type="radio" name="color" checked>
+							<input class="ba-product__color--color-2" type="radio" name="color">
+							<input class="ba-product__color--color-3" type="radio" name="color">
+							<input class="ba-product__color--color-4" type="radio" name="color">
+						</div>
+					</div>
+					<div class="ba-product__col-2 ba-float-right">
+						<h1 class="ba-product__title">Nike SB Stefan Janoski Max</h1>
+						<p class="ba-product__subtitle">Unisex Skateboarding Shoe</p>
+							<div class="ba-product__rating">
+								<img src="img/star.png" alt="star">
+								<img src="img/star.png" alt="star">
+								<img src="img/star.png" alt="star">
+								<img src="img/star.png" alt="star">
+								<img src="img/star.png" alt="star">
+							</div>
+						<div class="ba-product__select">
+							<select>
+								<option>Size</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="Yeti-size">Yeti-size :)</option>
+							</select>
+							<select>
+								<option>Qty</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="over 10">For centipede</option>
+							</select>
+						</div>
+						<button class="ba-product__button" type="submit">Add to cart</button>
+					</div>
+				</form>
+
+			</main>
+		</section>
+	</div>
+</body>
+</html>
